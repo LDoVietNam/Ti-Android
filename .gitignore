@@ -1,0 +1,17 @@
+# android build
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+# deps
+node_modules/
+# env / secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+# os
+.DS_Store

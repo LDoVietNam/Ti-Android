@@ -1,0 +1,17 @@
+# ── Ti Android Runtime - Development Configuration ──
+# Copy to dev.properties and fill in your values
+
+TI_ENV=dev
+TI_DEVICE_GATEWAY_WSS=wss://gateway.example.local/device
+TI_DEVICE_GATEWAY_HTTPS=https://gateway.example.local
+TI_ROUTER_BASE_URL=http://192.168.1.100:20128
+TI_MCP_BASE_URL=http://192.168.1.100:1919
+
+# Device
+TI_DEVICE_ID=ti-android-dev-01
+TI_LOG_LEVEL=DEBUG
+
+# Features
+TI_ALLOW_REMOTE_VISION=false
+TI_REQUIRE_APPROVAL_FOR_SEND=true
+TI_MAX_TASK_DURATION_SECONDS=120
